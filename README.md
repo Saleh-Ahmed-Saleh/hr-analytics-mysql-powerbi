@@ -1,71 +1,66 @@
-# hr-analytics-mysql-powerbi
+<img width="1645" height="930" alt="HR DASHBOARD" src="https://github.com/user-attachments/assets/b70b7081-45d9-4016-afd4-d249db42d424" /># hr-analytics-mysql-powerbi
 This project analyzes over 22,000 HR records (2000–2020) using MySQL and Power BI to uncover workforce trends, demographics, turnover rates, and tenure insights. The analysis highlights gender and age distribution, departmental performance, geographic spread, and headcount growth, delivering a clean, interactive HR analytics dashboard.
 
-📊 HR Analytics Dashboard
+📊 HR Analytics Dashboard Project
 Data Used
 
-Dataset: HR employee data with over 22,000 records (2000–2020)
+Dataset: HR employee data with over 22,000 records covering the period 2000–2020.
 
 Data Cleaning & Analysis: MySQL Workbench
 
 Data Visualization: Power BI
 
-🎯 Project Goals
+🎯 Project Objectives
 
-This project analyzes employee demographics, distribution, and turnover to understand workforce structure and trends.
+This project analyzes workforce demographics, employment patterns, and organizational trends to better understand employee distribution and retention.
 
-Key questions include:
+Key questions addressed:
 
-Gender, race, and age distribution of employees
+What is the gender distribution of employees?
 
-Headquarters vs remote workforce
+What is the race and ethnicity composition of the workforce?
 
-Employee tenure and turnover by department
+How are employees distributed across age groups?
 
-Employee distribution by state
+What is the proportion of headquarters vs remote employees?
 
-Changes in employee count over time
+What is the average tenure of terminated employees?
 
-🔎 Key Findings
+How does gender distribution vary across departments and job roles?
 
-The workforce is slightly male-dominant (about 8.9K male, 8.1K female, 0.5K non-conforming). 
+How are job titles distributed across the company?
 
-HR Employee Report
+Which departments experience the highest turnover?
 
-White employees represent the largest racial group. 
+How are employees distributed geographically by state?
 
-HR Employee Report
+How has employee headcount changed over time?
 
-Most employees are aged 25–44, showing a mainly mid-career workforce. 
+How does tenure vary across departments?
 
-HR Employee Report
+🔎 Summary of Findings
 
-About 75% of employees work at headquarters and 25% work remotely. 
+The workforce is slightly male-dominant, with approximately 8.9K male, 8.1K female, and 0.5K non-conforming employees. 
 
-HR Employee Report
+The largest racial group is White employees, followed by individuals identifying with two or more races, Black/African American, and Asian employees. Native Hawaiian and American Indian or Alaska Native groups represent the smallest proportions. 
 
-Employee headcount has steadily increased from 2000 to 2020. 
+Most employees fall within the 25–34 and 35–44 age groups, indicating a primarily mid-career workforce. The smallest age groups are 18–24 and 55–64. 
 
-HR Employee Report
+Approximately 75% of employees work at headquarters, while 25% work remotely, reflecting a predominantly centralized workforce. 
 
-Most employees are located in Ohio. 
+The organization has experienced a steady increase in employee count from 2000 to 2020, indicating sustained growth. 
 
-HR Employee Report
+Ohio has the highest employee concentration, making it the primary workforce location. 
 
-The average employee tenure is about 8 years. 
+The average employee tenure is about 8 years, suggesting moderate long-term retention. 
 
-HR Employee Report
+Gender representation across departments is generally balanced, although male employees slightly outnumber female employees in most areas. 
 
-Gender distribution across departments is generally balanced. 
+Auditing shows the highest termination rate, followed by Legal and Training, while other departments have relatively similar but slightly lower turnover levels. 
 
-HR Employee Report
-
-Auditing, Legal, and Training show the highest turnover rates. 
-
-HR Employee Report
 
 ⚠ Limitations
 
-Records with negative ages were removed (967 records). Only ages 18+ were analyzed.
+Records with negative ages were excluded (967 records). Only employees aged 18 and above were analyzed.
 
-Invalid future termination dates were excluded (1,599 records).
+Some termination dates were set in the future and were excluded from analysis (1,599 records). Only valid termination dates up to the current date were considered.
