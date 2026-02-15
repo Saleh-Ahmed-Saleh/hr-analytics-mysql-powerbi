@@ -1,10 +1,11 @@
-<img width="1645" height="930" alt="HR DASHBOARD" src="https://github.com/user-attachments/assets/b70b7081-45d9-4016-afd4-d249db42d424" /># hr-analytics-mysql-powerbi
 This project analyzes over 22,000 HR records (2000–2020) using MySQL and Power BI to uncover workforce trends, demographics, turnover rates, and tenure insights. The analysis highlights gender and age distribution, departmental performance, geographic spread, and headcount growth, delivering a clean, interactive HR analytics dashboard.
+
+
+<img width="1645" height="930" alt="HR DASHBOARD" src="https://github.com/user-attachments/assets/96db5297-a06f-4931-a838-a0212bf5dcb4" />
+<img width="1657" height="947" alt="HR DASHBOARD2" src="https://github.com/user-attachments/assets/79122790-7017-439e-af66-438b06a28e25" />
 
 📊 HR Analytics Dashboard Project
 Data Used
-<img width="1645" height="930" alt="HR DASHBOARD" src="https://github.com/user-attachments/assets/96db5297-a06f-4931-a838-a0212bf5dcb4" />
-
 Dataset: HR employee data with over 22,000 records covering the period 2000–2020.
 
 Data Cleaning & Analysis: MySQL Workbench
