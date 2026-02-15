@@ -3,6 +3,7 @@ This project analyzes over 22,000 HR records (2000–2020) using MySQL and Power
 
 📊 HR Analytics Dashboard Project
 Data Used
+<img width="1645" height="930" alt="HR DASHBOARD" src="https://github.com/user-attachments/assets/96db5297-a06f-4931-a838-a0212bf5dcb4" />
 
 Dataset: HR employee data with over 22,000 records covering the period 2000–2020.
 
